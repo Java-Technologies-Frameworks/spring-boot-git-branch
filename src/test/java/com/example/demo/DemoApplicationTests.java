@@ -10,7 +10,15 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class DemoApplicationTests {
 
 	@Test
-	public void contextLoads() {
+	public void contextLoadsTest() {
+		
+		System.out.println("test one line added");
 	}
+	
+	@Test
+	 public void addNewMethod()
+	 {
+		System.out.println("A new method addNewMethod added");
+	 }
 
 }
